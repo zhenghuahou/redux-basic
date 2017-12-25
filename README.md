@@ -219,3 +219,8 @@ return {sum : sum}
 * 最后我们看ControlPanel.js
 
 一个容器组件，装下Counter和Summary 就可以。
+
+### 关于分支
+
+1.  主分支的内容是 单纯使用redux。来实现。
+2.  'react-redux'分支的内容是 使用'react-redux'这个框架来实现内容.我们可以对比来发现不同的内容
