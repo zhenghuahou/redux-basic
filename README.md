@@ -1,3 +1,7 @@
+###### 文中主分支是使用 redux  ，‘react-redux’分支是使用的‘redux 和 react-redux’
+
+
+
 ##从Flux到Redux
 >单向数据流框架的始祖Flux
 >
