@@ -1,12 +1,13 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import { connect } from 'react-redux';
 import * as Actions from '../Actions.js';
-import {connect} from 'react-redux';
 
 const buttonStyle = {
     margin: '10px'
 };
 
 function Counter({caption, onIncrement, onDecrement, value}) {
+    console.warn(' arg:',arguments)
     return (
         <div>
             <button style={buttonStyle} onClick={onIncrement}>+</button>
@@ -17,8 +18,10 @@ function Counter({caption, onIncrement, onDecrement, value}) {
 }
 
 function mapStateToProps(state, ownProps) {
+    console.warn(' state:',state,state ===window.tt )
     return {
-        value: state[ownProps.caption]
+        value: state
+        // value: state[ownProps.caption]
     }
 }
 

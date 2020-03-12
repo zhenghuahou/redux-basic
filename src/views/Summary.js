@@ -59,8 +59,8 @@
 // export default SummaryContainer;
 //
 
-import React, { PropTypes } from 'react';
-import {connect} from 'react-redux';
+import React from 'react';
+import { connect } from 'react-redux';
 
 function Summary({value}) {
     return (

@@ -14,8 +14,8 @@ class ControlPanel extends Component {
         return (
             <div style={style}>
                 <Counter caption="First" />
-                <Counter caption="Second" />
-                <Counter caption="Third" />
+                {/* <Counter caption="Second" /> */}
+                {/* <Counter caption="Third" /> */}
                 <hr/>
                 <Summary />
             </div>
